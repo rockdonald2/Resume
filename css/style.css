@@ -113,13 +113,13 @@ body {
   font-style: italic;
   margin: 0 auto; }
 
-.other-califications {
+.other-qualifications {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center; }
 
-.calification {
+.qualification {
   padding: .5rem .75rem;
   background-color: rgba(111, 111, 111, 0.5);
   color: #161d1e;
@@ -129,9 +129,9 @@ body {
   font-weight: 500;
   vertical-align: top;
   transition: all .35s; }
-  .calification:not(:last-child) {
+  .qualification:not(:last-child) {
     margin-right: 1rem; }
-  .calification:hover {
+  .qualification:hover {
     transform: scale(1.1); }
 
 .contact {
@@ -177,6 +177,14 @@ body {
     transition: all .2s; }
   .nav:hover .nav-brand {
     color: #161d1e; }
+
+.footer {
+  max-width: 126rem;
+  margin: 0 auto;
+  text-align: center; }
+  .footer-text {
+    font-size: 1.2rem;
+    font-weight: 300; }
 
 .h2 {
   text-transform: uppercase;
@@ -292,3 +300,6 @@ body {
   transition: all .2s; }
   .hover-color:hover {
     color: #161d1e; }
+
+.text-underline {
+  text-decoration: underline; }

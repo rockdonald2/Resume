@@ -185,6 +185,14 @@ body {
   .nav:hover .nav-brand {
     color: #161d1e; }
 
+.footer {
+  max-width: 126rem;
+  margin: 0 auto;
+  text-align: center; }
+  .footer-text {
+    font-size: 1.2rem;
+    font-weight: 300; }
+
 .h2 {
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -299,3 +307,6 @@ body {
   transition: all .2s; }
   .hover-color:hover {
     color: #161d1e; }
+
+.text-underline {
+  text-decoration: underline; }
