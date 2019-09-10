@@ -113,13 +113,13 @@ body {
   font-style: italic;
   margin: 0 auto; }
 
-.other-califications {
+.other-qualifications {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center; }
 
-.calification {
+.qualification {
   padding: .5rem .75rem;
   background-color: rgba(111, 111, 111, 0.5);
   color: #161d1e;
@@ -129,9 +129,9 @@ body {
   font-weight: 500;
   vertical-align: top;
   transition: all .35s; }
-  .calification:not(:last-child) {
+  .qualification:not(:last-child) {
     margin-right: 1rem; }
-  .calification:hover {
+  .qualification:hover {
     transform: scale(1.1); }
 
 .contact {
